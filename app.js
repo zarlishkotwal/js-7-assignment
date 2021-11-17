@@ -81,16 +81,15 @@
 
     // Q#7
 
-    // function num(start,end){   
-    //         for(var i=start;i<=end;i++){
-    //             document.write(i+"<br>");
-    //         }
-    //     }
-    //     var a=+prompt("enter starting number:");
-    //     var b=+prompt("enter ending number:");
-    //     num(a,b);
+    function num(start,end){   
+            for(var i=start;i<=end;i++){
+                document.write(i+"<br>");
+            }
+        }
+        var a=+prompt("enter starting number:");
+        var b=+prompt("enter ending number:");
+        num(a,b);
       
-// Q#8
 
 
 
