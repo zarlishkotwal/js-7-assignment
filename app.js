@@ -81,15 +81,125 @@
 
     // Q#7
 
-    function num(start,end){   
-            for(var i=start;i<=end;i++){
-                document.write(i+"<br>");
-            }
-        }
-        var a=+prompt("enter starting number:");
-        var b=+prompt("enter ending number:");
-        num(a,b);
-      
+//     function num(start,end){   
+//             for(var i=start;i<=end;i++){
+//                 document.write(i+"<br>");
+//             }
+//         }
+//         var a=+prompt("enter starting number:");
+//         var b=+prompt("enter ending number:");
+//         num(a,b);
+
+//    Q#8   
+
+// var perp = +prompt("Enter Perpendicular value") * 2;
+// var hypo;
+// function calculateHypo(perp) {
+//     function calculateSqr(perp) {
+//         return perp * 2;
+//     }
+//     return hypo = 10 + perp;
+//     calculateSqr()
+// }
+// document.write("Hypoteneous is:" + " " + calculateHypo(perp))
+
+// Q#9
+
+// var width = +prompt("Enter Width");
+// var height = +prompt("Enter Hight");
+// function areaoftriangle(width,height) {
+//     var area = width*height;
+//     return area;
+// }
+// document.write("Area Of Triangle is: ");
+// document.write(areaoftriangle(width,height));
+
+// Q#10
+
+// function isPalindrome(word) {
+//         var reversedWord = "";
+//         word = word.toLowerCase();
+//         var letters = word.split("");
+//         for (let index = (word.length - 1); index >= 0; index--) {
+//             reversedWord = reversedWord + letters[index];
+//         }
+//         return word === reversedWord;
+//     }
+//     var word = "madam";
+//     var result = isPalindrome(word);
+//     if (result) {
+//         document.write(`${word} is a palindrome.`);
+//     }
+//     else {
+//         document.write(`${word} is not a palindrome.`);
+//     }
+
+// Q#11
+
+// function titleCase(str) {
+//     var arr = str.split(" ");
+//     var result = arr.map(
+//         function (val) {
+//             return val.replace(val.charAt(0), val.charAt(0).toUpperCase())
+//         }
+//     )
+//     return result;
+// }
+
+// var string = titleCase("the quick brown fox").join(" ");
+// document.write("EXAMPLE STRING:" + " " + "the quick brown fox" + "<br>")
+// document.write("EXPECTED OUTPUT:" + " " + string )
 
 
+// Q#12
 
+ // function longestString(str) {
+    //         var arr = str.split(" ");
+    //         var result = "";
+    //         for (var i = 0; i < arr.length; i++) {
+    //             var currenItem = arr[i];
+    //             if (currenItem.length > result.length) {
+    //                 result = arr[i]
+    //             }
+    //         }
+    //         return result;
+    //     }
+    //     var string1 = longestString('Web Development Tutorial');
+    //     document.write("Example String:" + " " + "Web Development Tutorial" + "<br>")
+    //     document.write("Expected Output:" + " " + string1 + "<br><br><br>")
+
+// Q#13
+
+// function countLetter(string, letter) {
+//         var count = 0;
+//         string = string.toLowerCase();
+//         letter = letter.toLowerCase();
+//         var letters = string.split("");
+//         for (const l of letters) {
+//             if (letter === l) {
+//                 count++;
+//             }
+//         }
+//         document.write(`Input: ${string}<br />`);
+//         document.write(`'${letter}' occurrences: ${count}`);
+//     }
+//     countLetter("hello hello hello", "e");
+
+// Q#14
+
+// var radius = +prompt("Enter radius Number");
+// function calcCircumference(radius) {
+
+//     var cirFer = (2*3.14)*radius;
+//     return cirFer;
+// }
+// document.write("Circumference of circle :  ");
+// document.write(calcCircumference(radius));
+
+
+// function calcArea(radius) {
+//     var area = 3.14*(radius*radius);
+//     return area;
+// }
+// document.write("<br>Area of circle:  ");
+// document.write(calcArea(radius))
